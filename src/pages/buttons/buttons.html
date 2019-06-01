@@ -1,0 +1,37 @@
+<!--
+  Generated template for the ButtonsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>buttons</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<button ion-button full>Full Button</button>
+<button ion-button color="secondary">Color Button</button>
+<button ion-button color="beauty" block>Block Button</button>
+<button ion-button color="danger" round>Round Button</button>
+<button ion-button color="danger" clear>Clear Button</button>
+<button ion-button color="primary" small>Small Button</button>
+<button ion-button color="dark" large>Large Button</button>
+<button ion-button color="dark" outline>Outline Button</button>
+
+<button ion-button icon-start (click)="gotoHome()">
+  <ion-icon name="home"></ion-icon>
+  Home
+</button>
+
+<!-- Toggle Button -->
+<ion-item>
+  <ion-label>Enable Me</ion-label>
+  <ion-toggle disabled checked="true"></ion-toggle>
+</ion-item>
+
+</ion-content>
